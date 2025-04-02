@@ -11,9 +11,9 @@ public class Main {
         System.out.println("Dias alugados: " + diasAluguel);
 
         double custo = carro.calcularCusto(diasAluguel);
-        System.out.println("Custo total com desconto: R$" + custo);
+        System.out.println("Custo total do aluguel: R$" + custo);
 
         double multa = carro.calcularMulta(diasAtraso);
-        System.out.println("Multa por atraso de " + diasAtraso + " dias: R$" + multa);
+        System.out.println("Multa por " + diasAtraso + " dias de atraso: R$" + multa);
     }
 }
